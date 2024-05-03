@@ -4,11 +4,45 @@ app_publisher = "alpha_code"
 app_description = "Alpha Code System"
 app_email = "aaljouilhy@gmail.com"
 app_license = "mit"
+app_logo_url = "/assets/alpha_code/images/logo-32.png"
 # required_apps = []
 
 # Includes in <head>
 # ------------------
 
+app_include_css = [
+    "/assets/alpha_code/plugins/animate.css/animate.min.css",
+    "/assets/alpha_code/plugins/fontawesome/all.min.css",
+    "/assets/alpha_code/plugins/tooltip/tooltip-theme-twipsy.css",
+    "/assets/alpha_code/plugins/flat-icons/flaticon.css",
+    "/assets/alpha_code/css/datavalue_theme.css"
+]
+
+app_include_js = [
+    "/assets/alpha_code/plugins/nicescroll/nicescroll.js",
+    "/assets/alpha_code/plugins/tooltip/tooltip.js",
+    "/assets/alpha_code/plugins/jquery-fullscreen/jquery.fullscreen.min.js",
+    "/assets/alpha_code/js/vue/side-menu.js",
+    "/assets/alpha_code/js/datavalue_theme.js"
+]
+
+website_context = {
+    "favicon": "/assets/alpha_code/images/logo-icon.png",
+    "splash_image": "/assets/alpha_code/images/logo-icon.png"
+}
+
+email_brand_image = "assets/alpha_code/images/logo-icon.png"
+
+# include js, css files in header of web template
+web_include_css = [
+    "assets/css/login.css",
+    "assets/alpha_code/css/dv-login.css"
+]
+web_include_js = [
+    "/assets/alpha_code/js/vue/theme-settings.js"
+]
+#app_include_css = "/assets/alpha_code/css/alpha_code.css"
+#app_include_js = ["/assets/alpha_code/js/custom_script.js"]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/alpha_code/css/alpha_code.css"
 # app_include_js = "/assets/alpha_code/js/alpha_code.js"
@@ -212,6 +246,27 @@ app_license = "mit"
 # 		"doctype": "{doctype_4}"
 # 	}
 # ]
+
+user_data_fields = [
+    {
+        "doctype": "{doctype_1}",
+        "filter_by": "{filter_by}",
+        "redact_fields": ["{field_1}", "{field_2}"],
+        "partial": 1,
+    },
+    {
+        "doctype": "{doctype_2}",
+        "filter_by": "{filter_by}",
+        "partial": 1,
+    },
+    {
+        "doctype": "{doctype_3}",
+        "strict": False,
+    },
+    {
+        "doctype": "{doctype_4}"
+    }
+]
 
 # Authentication and authorization
 # --------------------------------

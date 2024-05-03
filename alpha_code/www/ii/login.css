@@ -1,0 +1,110 @@
+.page-login{
+    background-color: #162752;
+}
+
+footer.web-footer{
+    display: none;
+}
+
+nav.navbar{
+    
+    background: linear-gradient(358deg, #1D9AB4, #144660) !important;
+    
+
+}
+.navbar-light {
+    border-bottom: 0px solid #e2e6e9;
+}
+
+.navbar-light .navbar-brand {
+    color: #000000;
+}
+
+a.nav-link.btn-login-area{
+    color: #000000 !important;   
+}
+
+
+
+
+.btn-login{
+    background: linear-gradient(106deg, #1D9AB4, #144660) !important;
+}
+.for-login .page-card, .for-forgot .page-card, .for-login-with-email-link .page-card, .for-signup .page-card, .for-email-login .page-card {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #dbd6e4;
+   /* background: linear-gradient(263deg, #1D9AB4, #144660) !important;
+   background-color: #8bb3c7; */
+    box-shadow: var(--shadow-base);
+}
+
+a.nav-link.btn-login-area {
+    color: #ffffff !important;
+}
+.navbar-light .navbar-brand {
+    color: #f7f7f7;
+}
+body {
+   
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    background: var(--background);
+    color: var(--color);
+    letter-spacing: 1px;
+    transition: background 0.2s ease;
+    -webkit-transition: background 0.2s ease;
+    -moz-transition: background 0.2s ease;
+    -ms-transition: background 0.2s ease;
+    -o-transition: background 0.2s ease;
+}
+
+
+.form-group {
+    margin-bottom: 1rem;
+    display: block;
+    padding: 5.5px;
+    width: 100%;
+    color: var(--color);
+    outline: none;
+    background-color: #9191911f;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+    backdrop-filter: blur(15px);
+    -webkit-border-radius: 5px;
+}
+.btn-sm, .btn-xs, .btn-group-sm > .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 3;
+    border-radius: var(--border-radius-sm);
+}
+img.app-logo {
+    max-height: 150px;
+   /* height: 150px;*/
+    width: 250px;
+}
+
+.btn-login {
+    background-color: #1d132f !important;
+}
+
+:root {
+    background: linear-gradient(89deg, #1D9AB4, #144660) !important;
+
+    --color: #ffffff;
+    --primary-color: #0f3460;
+}
+
+.theme-btn-container {
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+}
+
+
